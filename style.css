@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsla(0, 0%, 93%, 1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    width: 360px;
+    height: 528px;
+}
+.Iconography1{
+    position: relative;
+    width: 360px;
+    height: 216px;
+    border-radius: 16px 16px 0px 0px;
+}
+.pizza{
+    border-radius: 16px 16px 0px 0px;
+    position: relative;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 16px;
+    left: 304px;
+    cursor: pointer;
+}
+.t.pizza{
+    font-size: 24px;
+    font-weight: 400;
+    color: hsla(207, 72%, 11%, 1);
+}
+.fire_icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    background-color: hsla(10, 93%, 60%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wheat_icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    background-color: hsla(43, 100%, 59%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food_icons{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: center;
+}
+.title_pizza{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description1{
+    font-size: 16px;
+    color: hsla(218, 12%, 49%, 1);
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cal1{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.rules1{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.temp1{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.purchase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-size: 28px;
+    color: hsla(207, 72%, 11%, 1);
+}
+.price2{
+    font-size: 20px;
+    color: hsla(10, 93%, 60%, 1);
+    text-decoration:line-through;
+}
+button{
+    width: 114px;
+    height: 44px;
+    font-size: 14px;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 1);
+    background-color: hsla(145, 63%, 49%, 1);
+    border: none;
+    cursor: pointer;
+}
+.texts1{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.box2{
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 24px 0 24px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border-radius: 0 0 16px 16px;
+}
+.box3{
+    width: 360px;
+    height: 528px;
+    border-radius: 16px 16px 0 0;
+}
+.Iconography2{
+    position: relative;
+    width: 360px;
+    height: 216px;
+    border-radius: 16px 16px 0px 0px;
+}
+.tortellini{
+    border-radius: 16px 16px 0px 0px;
+    position: relative;
+}
+.t.tortellini{
+    font-size: 24px;
+    font-weight: 400;
+    color: hsla(207, 72%, 11%, 1);
+}
+.leaf_icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    background-color: hsla(145, 63%, 49%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_tortellini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description2{
+    font-size: 16px;
+    color: hsla(218, 12%, 49%, 1);
+}
+.info2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cal2{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.rules2{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.temp2{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.purchase2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.price3{
+    font-size: 28px;
+    color: hsla(207, 72%, 11%, 1);
+}
+.price4{
+    font-size: 20px;
+    color: hsla(10, 93%, 60%, 1);
+    text-decoration:line-through;
+}
+.texts2{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.box4{
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 24px 0 24px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border-radius: 0 0 16px 16px;
+}
+.box5{
+    width: 360px;
+    height: 528px;
+    border-radius: 16px 16px 0 0;
+}
+.Iconography3{
+    position: relative;
+    width: 360px;
+    height: 216px;
+    border-radius: 16px 16px 0px 0px;
+}
+.cake{
+    border-radius: 16px 16px 0px 0px;
+    position: relative;
+}
+.t.cake{
+    font-size: 24px;
+    font-weight: 400;
+    color: hsla(207, 72%, 11%, 1);
+}
+
+.title_cake{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description3{
+    font-size: 16px;
+    color: hsla(218, 12%, 49%, 1);
+}
+.info3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cal3{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.rules3{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.temp3{
+    font-size: 16px;
+    color: hsla(218, 14%, 69%, 1);
+}
+.purchase3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.price5{
+    font-size: 28px;
+    color: hsla(207, 72%, 11%, 1);
+}
+.price6{
+    font-size: 20px;
+    color: hsla(10, 93%, 60%, 1);
+    text-decoration:line-through;
+}
+.texts3{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+.box6{
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 0 24px 0 24px;
+    background-color: hsla(0, 0%, 100%, 1);
+    border-radius: 0 0 16px 16px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
